@@ -1,0 +1,86 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reimbursement form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+        <label for="eventType">What is the event? </label>
+        <br>
+        <input type="radio" name="eventType" value="University Course">University Course
+        <br>
+        <input type="radio" name="eventType" value="Seminar">Seminar
+        <br>
+        <input type="radio" name="eventType" value="Certification Prep Course">Certification Prep Course
+        <br>
+        <input type="radio" name="eventType" value="Certification">Certification
+        <br>
+        <input type="radio" name="eventType" value="Technical Training">Technical Training
+        <br>
+        <input type="radio" name="eventType" value="Other">Other
+        <br>
+        <br>
+        <label for="startDate">What date does the event start?</label>
+        <br>
+        <input type="date"  name="startDate" id="startDateId">
+        <br>
+        <label for="endDate">What date does the event end?</label>
+        <br>
+        <input type="date"  name="endDate" id="endDateId">
+        <br>
+        <br>
+        <label for="schedule">Please select the days and timeframe the event will take place</label>
+        <br>
+        <input type="checkbox" name="schedule" value="monday">Mon
+        <input type="checkbox" name="schedule" value="tuesday">Tues
+        <input type="checkbox" name="schedule" value="wednesday">Wed
+        <input type="checkbox" name="schedule" value="thursday">Thurs
+        <input type="checkbox" name="schedule" value="friday">Fri
+        <input type="checkbox" name="schedule" value="saturday">Sat
+        <input type="checkbox" name="schedule" value="sunday">Sun
+        <br>
+        start time <input type="time" name="startTime">
+        <br>
+        end time <input type="time" name="endTime">
+        <br>
+        <br>
+        <label for="description">Please write a brief description of the event</label>
+        <br>
+        <input type="text" name="description">
+        <br>
+        <br>
+        <label for="cost">How much will the event cost? (Note: books are not covered for any course)</label>
+        <br>
+        <input type="number" name="cost">
+        <br>
+        <br>
+        <label for="gradeFormat">How will this event be graded?</label>
+        <br>
+        <input type="radio" name="gradeFormat" value="outOf100">Out of 100%
+        <br>
+        <input type="radio" name="gradeFormat" value="GPA">GPA (4.0)
+        <br>
+        <input type="radio" name="gradeFormat" value="passFail">Pass/Fail
+        <br>
+        <input type="radio" name="gradeFormat" value="outOf100">None (Seminar)
+        <br>
+        <input type="radio" name="gradeFormat" value="other">Other
+        <br>
+        <label for="otherDescription">If other, please explain or application may be declined</label>
+        <br>
+        <input type="text" name="otherDescription">
+        <br>
+        <label for="justification">How will this course be beneficial?</label>
+        <br>
+        <input type="text" name="justification">
+        <br>
+        <br>
+        <input type="submit">
+        
+
+</body>
+</html>
